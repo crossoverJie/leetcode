@@ -12,6 +12,10 @@ public class TwoSumTest {
         twoSum = new TwoSum() ;
     }
 
+    /**
+     * 单测
+     * @throws Exception
+     */
     @Test
     public void twoSum() throws Exception {
         int[] nums = {2, 7, 11, 15} ;
