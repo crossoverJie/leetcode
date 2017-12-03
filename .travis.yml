@@ -1,9 +1,13 @@
 language: java
-script: "mvn cobertura:cobertura"
+
+before_install:
+  - pip install --user codecov
+
 install: mvn install -DskipTests=true -Dmaven.javadoc.skip=true
 script: mvn -DskipTests=true clean install
 after_success:
-  - bash <(curl -s https://codecov.io/bash)
+  - mvn clean test jacoco:report coveralls:report
+  - codecov
 
 
 branches:
