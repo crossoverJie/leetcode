@@ -9,6 +9,12 @@ package com.crossoverjie.leetcode;
  */
 public class TwoSum {
 
+    /**
+     *
+     * @param nums
+     * @param target
+     * @return
+     */
     public int[] twoSum(int[] nums, int target) {
         int[] ret = new int[2];
         for(int i =0; i<nums.length ;i++){
