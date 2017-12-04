@@ -15,7 +15,7 @@
         <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
     </properties>
 
-    
+
 
 
     <dependencies>
@@ -66,7 +66,7 @@
                 <artifactId>coveralls-maven-plugin</artifactId>
                 <version>4.3.0</version>
                 <configuration>
-                    <repoToken>yourcoverallsprojectrepositorytoken</repoToken>
+                    <repoToken>m8Gf893OFBhzYLa17rmeuduAHscH79ghf</repoToken>
                 </configuration>
             </plugin>
 
