@@ -13,7 +13,7 @@ public class TwoSumTest {
     }
 
     /**
-     * 单测2
+     * 单测
      * @throws Exception
      */
     @Test
@@ -21,6 +21,17 @@ public class TwoSumTest {
         int[] nums = {2, 7, 11, 15} ;
         int[] result = twoSum.twoSum(nums, 9) ;
         int[] target ={0,1} ;
+        Assert.assertArrayEquals(result,target);
+    }
+    /**
+     * 单测2
+     * @throws Exception
+     */
+    @Test
+    public void twoSum2() throws Exception {
+        int[] nums = {2, 7, 11, 15} ;
+        int[] result = twoSum.twoSum(nums, 100) ;
+        int[] target ={0,0} ;
         Assert.assertArrayEquals(result,target);
     }
 
