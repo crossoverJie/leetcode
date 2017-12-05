@@ -1,7 +1,7 @@
 package com.crossoverjie.leetcode;
 
 /**
- * Function:
+ * Function:判断一个数是否为回文
  *
  * @author crossoverJie
  *         Date: 04/12/2017 23:06
