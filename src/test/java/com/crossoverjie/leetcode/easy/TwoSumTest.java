@@ -1,5 +1,6 @@
-package com.crossoverjie.leetcode;
+package com.crossoverjie.leetcode.easy;
 
+import com.crossoverjie.leetcode.easy.TwoSum;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

@@ -1,4 +1,4 @@
-package com.crossoverjie.leetcode;
+package com.crossoverjie.leetcode.easy;
 
 /**
  * Function:判断一个数是否为回文

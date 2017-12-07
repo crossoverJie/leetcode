@@ -1,4 +1,4 @@
-package com.crossoverjie.leetcode;
+package com.crossoverjie.leetcode.easy;
 
 /**
  * Function: [2, 7, 11, 15], target = 9 return [0,1]

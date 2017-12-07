@@ -1,4 +1,4 @@
-package com.crossoverjie.leetcode;
+package com.crossoverjie.leetcode.easy;
 
 /**
  * Function: 交换整数 Input: 123  Output:  321

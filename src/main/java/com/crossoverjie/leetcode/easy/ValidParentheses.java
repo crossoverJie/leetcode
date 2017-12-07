@@ -1,4 +1,4 @@
-package com.crossoverjie.leetcode;
+package com.crossoverjie.leetcode.easy;
 
 import java.util.Stack;
 
