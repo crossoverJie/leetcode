@@ -8,10 +8,25 @@ package com.crossoverjie.leetcode.easy;
  * @since JDK 1.8
  */
 public class ListNode {
-    int val;
+    /**
+     * 当前值
+     */
+    int currentVal;
+
+    /**
+     * 下一个节点
+     */
     ListNode next;
 
-    ListNode(int x) {
-        val = x;
+    ListNode(int val) {
+        currentVal = val;
+    }
+
+    @Override
+    public String toString() {
+        return "ListNode{" +
+                "currentVal=" + currentVal +
+                ", next=" + next +
+                '}';
     }
 }
