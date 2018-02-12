@@ -10,7 +10,31 @@ package com.crossoverjie.leetcode.easy;
 public class TreeDepth {
 
 
-    public class BinaryNode {
+    /**
+     * 递归求树的深度
+     * @param binaryNode
+     * @return
+     */
+    public int depth(BinaryNode binaryNode){
+
+
+        if (binaryNode == null){
+            return 0 ;
+        }
+
+        int leftDepth = depth(binaryNode.getLeft());
+
+        int rightDepth = depth(binaryNode.getRight());
+
+        if (leftDepth > rightDepth){
+            return leftDepth + 1 ;
+        }else {
+            return rightDepth + 1;
+        }
+    }
+
+
+    public static class BinaryNode {
         private Object data;
         private BinaryNode left;
         private BinaryNode right;
@@ -19,14 +43,6 @@ public class TreeDepth {
             this.data = data;
             this.left = left;
             this.right = right;
-        }
-
-        public Object getData() {
-            return data;
-        }
-
-        public void setData(Object data) {
-            this.data = data;
         }
 
         public BinaryNode getLeft() {
@@ -47,19 +63,4 @@ public class TreeDepth {
 
     }
 
-
-    public BinaryNode createNode() {
-        BinaryNode node = new BinaryNode("1", null, null);
-        BinaryNode left2 = new BinaryNode("2", null, null);
-        BinaryNode left3 = new BinaryNode("3", null, null);
-        BinaryNode left4 = new BinaryNode("4", null, null);
-        BinaryNode left5 = new BinaryNode("5", null, null);
-        BinaryNode left6 = new BinaryNode("6", null, null);
-        node.setLeft(left2);
-        left2.setLeft(left4);
-        left2.setRight(left6);
-        node.setRight(left3);
-        left3.setRight(left5);
-        return node;
-    }
 }
