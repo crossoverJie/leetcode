@@ -1,5 +1,6 @@
 package com.crossoverjie.leetcode.easy;
 
+import org.junit.Assert;
 import org.junit.Test;
 import static com.crossoverjie.leetcode.easy.TreeDepth.BinaryNode;
 
@@ -22,7 +23,7 @@ public class TreeDepthTest {
 
         TreeDepth treeDepth = new TreeDepth() ;
         int depth = treeDepth.depth(node);
-        System.out.println(depth);
+        Assert.assertEquals(4,depth);
 
     }
 
