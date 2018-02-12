@@ -50,6 +50,17 @@ public class ReverseNodeTest {
 
     }
 
+    /**
+     * 头插法
+     * @throws Exception
+     */
+    @Test
+    public void reverseHead22() throws Exception {
+        ReverseNode reverseNode = new ReverseNode() ;
+        reverseNode.reverseNode(null);
+
+    }
+
 
     @Test
     public void recNodeTest31(){
@@ -60,6 +71,12 @@ public class ReverseNodeTest {
 
         ReverseNode reverseNode = new ReverseNode() ;
         reverseNode.recNode(node1);
+    }
+
+    @Test
+    public void recNodeTest32(){
+        ReverseNode reverseNode = new ReverseNode() ;
+        reverseNode.recNode(null);
     }
 
 }
