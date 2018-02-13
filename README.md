@@ -10,4 +10,6 @@ NO | Title | Solution
 ---- | --- | ---
 1| [Two Sum](https://leetcode.com/problems/two-sum)   | [TwoSum.java](https://github.com/crossoverJie/leetcode/blob/master/src/main/java/com/crossoverjie/leetcode/easy/TwoSum.java)
 7 |  [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | [ReverseInteger](https://github.com/crossoverJie/leetcode/blob/master/src/main/java/com/crossoverjie/leetcode/easy/ReverseInteger.java)
+9 |  [Palindrome Number](https://leetcode.com/problems/palindrome-number/description/) | [PalindromeNumber](https://github.com/crossoverJie/leetcode/blob/master/src/main/java/com/crossoverjie/leetcode/easy/PalindromeNumber.java)
+9 |  [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/) | [ValidParentheses](https://github.com/crossoverJie/leetcode/blob/master/src/main/java/com/crossoverjie/leetcode/easy/ValidParentheses.java)
 
