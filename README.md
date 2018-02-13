@@ -1,4 +1,10 @@
-# leetcode
+# LeetCode
+
+总所周知 LeetCode 是一个刷算法题的网站，参加 ACM 或者是大厂面试都有重要作用。
+
+如今不管是 ACM 和大厂面试都与我无缘，但数据结构与算法确是任何一门编程语言都需要核心掌握的，当我们的开发年限越来越长其中的重要性也会越来越大(现在我就深有感触)。
+
+所以以下内容我是空余时间的题解，有着详细的注释。刷题的顺序由易到难，有任何疑问欢迎提出，共勉！
 
 [![Build Status](https://travis-ci.org/crossoverJie/leetcode.svg?branch=master)](https://travis-ci.org/crossoverJie/leetcode)
 [![codecov](https://codecov.io/gh/crossoverJie/leetcode/branch/master/graph/badge.svg)](https://codecov.io/gh/crossoverJie/leetcode)
