@@ -30,4 +30,4 @@ NO | Title | Solution
 
 NO | Title | Solution
 ---- | --- | ---
-151| [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/description/)   | [ReverseWordsInAString.java](https://github.com/crossoverJie/leetcode/blob/master/src/main/java/com/crossoverjie/leetcode/medium/ReverseWordsInAString.java)
+151| [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/description/)   | [ReverseWordsInAString.java](https://github.com/crossoverJie/leetcode/blob/master/src/main/java/com/crossoverjie/leetcode/medium/ReverseWordsInAString)
