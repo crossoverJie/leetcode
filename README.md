@@ -4,7 +4,7 @@
 [![codecov](https://codecov.io/gh/crossoverJie/leetcode/branch/master/graph/badge.svg)](https://codecov.io/gh/crossoverJie/leetcode)
 [![Coverage Status](https://coveralls.io/repos/github/crossoverJie/leetcode/badge.svg)](https://coveralls.io/github/crossoverJie/leetcode)
 
-总所周知 `LeetCode` 是一个刷算法题的网站，参加 `ACM` 或者是大厂面试都有重要作用。
+众所周知 `LeetCode` 是一个刷算法题的网站，参加 `ACM` 或者是大厂面试都有重要作用。
 
 如今不管是 `ACM` 和大厂面试都与我无缘，但数据结构与算法却是任何一门编程语言都需要核心掌握的，当开发年限越来越长其中的重要性也会越来越大(现在我就深有感触)。
 
