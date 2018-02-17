@@ -27,4 +27,20 @@ public class ReverseWordsInAStringTest {
         Assert.assertEquals("b a",s);
     }
 
+    @Test
+    public void reverseWords4() throws Exception {
+        String string = " " ;
+        ReverseWordsInAString rever = new ReverseWordsInAString() ;
+        String s = rever.reverseWords(string);
+        Assert.assertEquals("",s);
+    }
+
+    @Test
+    public void reverseWords5() throws Exception {
+        String string = "" ;
+        ReverseWordsInAString rever = new ReverseWordsInAString() ;
+        String s = rever.reverseWords(string);
+        Assert.assertEquals("",s);
+    }
+
 }
