@@ -1,8 +1,8 @@
 # LeetCode
 
-总所周知 LeetCode 是一个刷算法题的网站，参加 ACM 或者是大厂面试都有重要作用。
+总所周知 `LeetCode` 是一个刷算法题的网站，参加 `ACM` 或者是大厂面试都有重要作用。
 
-如今不管是 ACM 和大厂面试都与我无缘，但数据结构与算法确是任何一门编程语言都需要核心掌握的，当我们的开发年限越来越长其中的重要性也会越来越大(现在我就深有感触)。
+如今不管是 `ACM` 和大厂面试都与我无缘，但数据结构与算法却是任何一门编程语言都需要核心掌握的，当开发年限越来越长其中的重要性也会越来越大(现在我就深有感触)。
 
 所以以下内容我是空余时间的题解，有着详细的注释。
 
@@ -23,3 +23,9 @@ NO | Title | Solution
 21 |  [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/) | [MergeTwoSortedLists](https://github.com/crossoverJie/leetcode/blob/master/src/main/java/com/crossoverjie/leetcode/easy/MergeTwoSortedLists.java)
 22 |  [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) | [RemoveDuplicatesSortedArray](https://github.com/crossoverJie/leetcode/blob/master/src/main/java/com/crossoverjie/leetcode/easy/RemoveDuplicatesSortedArray.java)
 
+
+## Medium
+
+NO | Title | Solution
+---- | --- | ---
+1| [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/description/)   | [ReverseWordsInAString.java](https://github.com/crossoverJie/leetcode/blob/master/src/main/java/com/crossoverjie/leetcode/medium/ReverseWordsInAString.java)
