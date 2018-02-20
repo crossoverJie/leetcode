@@ -20,19 +20,24 @@ public class SearchInsertPosition {
         for (int i = 0; i < nums.length; i++) {
             int current = nums[i];
 
+            //当前值比目标值小就跳过
             if (current < target) {
                 continue;
             }
 
+            //当前值比目标值大时，当前的位置就应该是目标值插入的索引位置
             if (current > target) {
                 return i;
             }
 
+            //相等直接返回当前的索引
             if (current == target) {
                 return i;
             }
         }
 
+
+        //如果遍历完都没有，目标值就应该放在最后，所有索引应该是数组长度
         return nums.length;
     }
 }
