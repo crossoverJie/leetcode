@@ -24,6 +24,7 @@ NO | Title | Solution
 20 |  [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/) | [ValidParentheses](https://github.com/crossoverJie/leetcode/blob/master/src/main/java/com/crossoverjie/leetcode/easy/ValidParentheses.java)
 21 |  [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/) | [MergeTwoSortedLists](https://github.com/crossoverJie/leetcode/blob/master/src/main/java/com/crossoverjie/leetcode/easy/MergeTwoSortedLists.java)
 22 |  [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) | [RemoveDuplicatesSortedArray](https://github.com/crossoverJie/leetcode/blob/master/src/main/java/com/crossoverjie/leetcode/easy/RemoveDuplicatesSortedArray.java)
+35 |  [Search Insert Position](https://leetcode.com/problems/search-insert-position/description/) | [SearchInsertPosition](https://github.com/crossoverJie/leetcode/blob/master/src/main/java/com/crossoverjie/leetcode/easy/SearchInsertPosition.java)
 
 
 ## Medium
