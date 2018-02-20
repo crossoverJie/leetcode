@@ -44,4 +44,34 @@ public class SearchInsertPositionTest {
         Assert.assertEquals(index,0);
     }
 
+
+    @Test
+    public void searchInsert5() throws Exception {
+
+        int[] nums =null;
+        int target = 0 ;
+        SearchInsertPosition searchInsertPosition = new SearchInsertPosition() ;
+        int index = searchInsertPosition.searchInsert(nums, target);
+        Assert.assertEquals(index,-1);
+    }
+
+    @Test
+    public void searchInsert6() throws Exception {
+
+        int[] nums ={};
+        int target = 0 ;
+        SearchInsertPosition searchInsertPosition = new SearchInsertPosition() ;
+        int index = searchInsertPosition.searchInsert(nums, target);
+        Assert.assertEquals(index,-1);
+    }
+    @Test
+    public void searchInsert7() throws Exception {
+
+        int[] nums ={1};
+        int target = 1 ;
+        SearchInsertPosition searchInsertPosition = new SearchInsertPosition() ;
+        int index = searchInsertPosition.searchInsert(nums, target);
+        Assert.assertEquals(index,0);
+    }
+
 }
