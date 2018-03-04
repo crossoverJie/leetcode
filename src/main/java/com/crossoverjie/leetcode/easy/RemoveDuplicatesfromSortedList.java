@@ -14,6 +14,24 @@ public class RemoveDuplicatesfromSortedList {
 
     public ListNode deleteDuplicates(ListNode head) {
 
+        if (head == null || head.next == null){
+            return head ;
+        }
+        while (head != null){
+            if (head.val == head.next.val){
+
+                if (head.next.next == null){
+                    head.next = null ;
+                }else {
+                    head.next = head.next.next ;
+                }
+
+            }
+
+            head = head.next ;
+        }
+
+
         return head ;
     }
 
