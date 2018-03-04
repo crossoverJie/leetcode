@@ -10,7 +10,7 @@ package com.crossoverjie.leetcode.easy;
  *         Date: 04/03/2018 23:47
  * @since JDK 1.8
  */
-public class RemoveDuplicatesfromSortedList {
+public class RemoveDuplicatesFromSortedList {
 
     public ListNode deleteDuplicates(ListNode head) {
 
