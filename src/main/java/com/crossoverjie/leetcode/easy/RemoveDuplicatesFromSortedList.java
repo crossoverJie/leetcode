@@ -21,8 +21,10 @@ public class RemoveDuplicatesFromSortedList {
         ListNode node = head;
 
         while (node.next != null) {
+            //每次比较下一个是否和当前值相等
             if (node.val == node.next.val) {
 
+                //相等就跳过当前值
                 node.next = node.next.next;
 
             }else {
