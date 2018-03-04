@@ -2,7 +2,7 @@ package com.crossoverjie.leetcode.easy;
 
 /**
  * Function: 删除链表中重复的元素
- *
+ * <p>
  * Given 1->1->2, return 1->2.
  * Given 1->1->2->3->3, return 1->2->3.
  *
@@ -14,25 +14,26 @@ public class RemoveDuplicatesFromSortedList {
 
     public ListNode deleteDuplicates(ListNode head) {
 
-        if (head == null || head.next == null){
-            return head ;
+        if (head == null || head.next == null) {
+            return head;
         }
-        while (head != null){
-            if (head.val == head.next.val){
 
-                if (head.next.next == null){
-                    head.next = null ;
-                }else {
-                    head.next = head.next.next ;
-                }
+        ListNode node = head;
 
+        while (node.next != null) {
+            if (node.val == node.next.val) {
+
+                node.next = node.next.next;
+
+            }else {
+
+                node = node.next;
             }
 
-            head = head.next ;
         }
 
 
-        return head ;
+        return head;
     }
 
 
