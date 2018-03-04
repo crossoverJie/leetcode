@@ -25,6 +25,7 @@ NO | Title | Solution
 21 |  [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/) | [MergeTwoSortedLists](https://github.com/crossoverJie/leetcode/blob/master/src/main/java/com/crossoverjie/leetcode/easy/MergeTwoSortedLists.java)
 22 |  [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/) | [RemoveDuplicatesSortedArray](https://github.com/crossoverJie/leetcode/blob/master/src/main/java/com/crossoverjie/leetcode/easy/RemoveDuplicatesSortedArray.java)
 35 |  [Search Insert Position](https://leetcode.com/problems/search-insert-position/description/) | [SearchInsertPosition](https://github.com/crossoverJie/leetcode/blob/master/src/main/java/com/crossoverjie/leetcode/easy/SearchInsertPosition.java)
+83 |  [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/) | [RemoveDuplicatesFromSortedList](https://github.com/crossoverJie/leetcode/blob/master/src/main/java/com/crossoverjie/leetcode/easy/RemoveDuplicatesFromSortedList.java)
 
 
 ## Medium
