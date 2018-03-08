@@ -15,7 +15,7 @@ import java.util.Stack;
 public class ReverseWordsInAString {
 
     /**
-     * 根据栈的特性
+     * 根据栈先进后出的特性
      * @param s
      * @return
      */
