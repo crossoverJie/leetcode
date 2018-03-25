@@ -25,7 +25,7 @@ public class TopKFrequentElements {
      * @param k
      * @return
      */
-    public static List<Integer> topKFrequent(int[] nums, int k) {
+    public  List<Integer> topKFrequent(int[] nums, int k) {
         List<Integer> result = new ArrayList<>();
         Map<Integer, Integer> map = new HashMap<>();
         for (int num : nums) {
